@@ -1,0 +1,28 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno
+.env
+.env.*  # Soporte para .env.local, .env.production, etc.
+
+# Archivos de salida / build (si usas TypeScript o bundler)
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración del editor
+.vscode/
+.idea/
